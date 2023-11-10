@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "pm2 start index.js --watch && C:/Users/bernh/Downloads/tmole.exe 8080"
+    "test": "pm2 start index.js --watch"
   },
   "keywords": [],
   "author": "",
