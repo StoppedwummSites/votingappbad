@@ -2,19 +2,23 @@ console.log("Now preparing Express");
 
 const express = require('express');
 const path = require('path');
-let a1p1 = 0
-let a2p1 = 0
-let allvotes1 = 0
+//Now the bad code
+let a1p1 = 0;
+let a2p1 = 0;
+let allvotes1 = 0;
 
 const app = express();
 const port = process.env.PORT || 8080;
 
 console.log("Now routing URL's");
 
+// Startpage
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/index.html'));
 });
 
+
+//poll Voting interface
 app.get('/poll', function(req, res) {
 	const voteid = req.query.voteid;
 	if (voteid == undefined) {
@@ -24,6 +28,7 @@ app.get('/poll', function(req, res) {
 	};
 });
 
+//Record Results
 app.get('/poll/pollresults', function(req, res) {
 	const voteid = req.query.id
 	if (voteid == 1){
@@ -40,6 +45,7 @@ app.get('/poll/pollresults', function(req, res) {
 	};
 });
 
+//Get Results via JSON
 app.get('/poll/getresults', function(req, res) {
 	const pollid = req.query.id;
 	const resetpoll = req.query.r;
@@ -62,6 +68,8 @@ app.get('/poll/getresults', function(req, res) {
 	};
 });
 
+// Listening
 console.log("Listening is about to start");
 app.listen(port);
 console.log('Server up and running at http://localhost:' + port);
+//Done
