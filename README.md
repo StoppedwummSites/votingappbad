@@ -42,3 +42,10 @@ To stop the app simply run
 
 If you want to reset on the fly, please use this url: <localhost:8080/poll/getresults?voteid=1&r=1>
 
+#### How do I make my own poll
+
+Have fun doing that (You have to change index.js and add a new HTML file in /poll/1.html (or just change the options in /poll/1.html))
+
+## Acknowledgements
+
+https://pm2.keymetrics.io/, https://expressjs.com/ and https://www.digitalocean.com/ tutorials for express
