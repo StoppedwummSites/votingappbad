@@ -8,7 +8,7 @@ This is a bad written coding app with express, nodejs and pm2
 
 ## Installation
 
-Install my-project with npm
+Install my project with npm
 
 ```bash
   git clone https://github.com/StoppedwummSites/votingappbad.git
