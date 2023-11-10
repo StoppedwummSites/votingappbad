@@ -57,3 +57,5 @@ Have fun doing that (You have to change index.js and add a new HTML file in /pol
 ## Acknowledgements
 
 https://pm2.keymetrics.io/, https://expressjs.com/ and https://www.digitalocean.com/ tutorials for express
+
+README.md Editor: <https://readme.so>
