@@ -25,7 +25,15 @@ To deploy this project run
 ```
 This will start the app on <localhost:8080>
 
-To stop the app simply run
+For professional Deployment run
+
+```bash
+  npm run deploy
+```
+
+To stop the app (started with test) press CTRL + C
+
+To stop the app (started with deploy) simply run
 
 ```bash
   pm2 stop all
