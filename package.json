@@ -1,0 +1,17 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pm2 start index.js --watch && C:/Users/bernh/Downloads/tmole.exe 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "Express": "^3.0.1",
+    "pm2": "^5.3.0"
+  }
+}
