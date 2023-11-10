@@ -1,5 +1,5 @@
 
-# A bad coding app
+# A bad Web voting app
 
 This is a bad written coding app with express, nodejs and pm2
 
