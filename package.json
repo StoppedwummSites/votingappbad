@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "deploy": "pm2 start index.js --watch"
+    "deploy": "npm install -g pm2 && pm2 start index.js --watch"
   },
   "keywords": [],
   "author": "",
